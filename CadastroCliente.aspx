@@ -13,7 +13,7 @@
         <asp:TextBox ID="CampoDeCep" runat="server"></asp:TextBox>
 &nbsp;<asp:Button ID="BtnPesquisar" runat="server" Text="Pesquisar" OnClick="Button1_Click" />
     </p>
-    <p>Endereço <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+    <p>Endereço <asp:TextBox ID="TextBox4" runat="server" OnTextChanged="TextBox4_TextChanged"></asp:TextBox>
     </p>
     <p>Bairro
         <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>

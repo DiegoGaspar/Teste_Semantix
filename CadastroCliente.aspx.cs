@@ -25,7 +25,9 @@ namespace Teste_Semantix
         protected void Button1_Click(object sender, EventArgs e)
         {
             var modeloCep = new CepIntegracao().GetCep(CampoDeCep.Text);
-
+            TextBox4.Text = modeloCep.Result.logradouro;
+            TextBox5.Text = modeloCep.Result.bairro;
+            TextBox6.Text = modeloCep.Result.localidade;
         }
 
         protected void Button3_Click(object sender, EventArgs e)
@@ -34,6 +36,11 @@ namespace Teste_Semantix
         }
 
         protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
