@@ -10,8 +10,8 @@
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </p>
     <p>Cep
-        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-&nbsp;<asp:Button ID="Button1" runat="server" Text="Pesquisar" />
+        <asp:TextBox ID="CampoDeCep" runat="server"></asp:TextBox>
+&nbsp;<asp:Button ID="BtnPesquisar" runat="server" Text="Pesquisar" OnClick="Button1_Click" />
     </p>
     <p>Endereço <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
     </p>

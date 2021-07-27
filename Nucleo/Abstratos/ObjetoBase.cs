@@ -7,6 +7,6 @@ namespace Teste_Semantix.Nucleo.Abstratos
 {
     public abstract class ObjetoBase
     {
-        private int Id;
+        private int Id { get; set; }
     }
 }
