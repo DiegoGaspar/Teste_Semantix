@@ -13,16 +13,11 @@ namespace Teste_Semantix.Models
     using System.Collections.Generic;
     using Teste_Semantix.Models.Abstratos;
 
-    public class Cliente:ObjetoBase
+    public class Cliente_Telefone : ObjetoBase
     {
-        public Cliente()
-        {
-            this.Cliente_Endereco = new HashSet<Cliente_Endereco>();
-            this.Cliente_Telefone = new HashSet<Cliente_Telefone>();
-        }
-        public string Nome { get; set; }
+        public int NumeroTelefone { get; set; }
+        public int ClienteId { get; set; }
     
-        public virtual ICollection<Cliente_Endereco> Cliente_Endereco { get; set; }
-        public virtual ICollection<Cliente_Telefone> Cliente_Telefone { get; set; }
+        public virtual Cliente Cliente { get; set; }
     }
 }

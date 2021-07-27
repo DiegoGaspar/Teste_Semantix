@@ -25,7 +25,7 @@
         <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Salvar" />
         
         <asp:Button runat="server" href="Default.aspx" title="Cancelar" Text="Cancelar" OnClick="Unnamed1_Click"/>
-       
+       <p><asp:Literal runat="server" ID="ltMensagem"></asp:Literal></p>
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="listaCliente" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
             <Columns>
                 <asp:CommandField ShowSelectButton="True" ShowDeleteButton="True" ShowEditButton="True" />

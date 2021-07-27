@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Teste_Semantix.Nucleo.Abstratos
+namespace Teste_Semantix.Models.Abstratos
 {
     public abstract class ObjetoBase
     {
-        private int Id { get; set; }
+        public int Id { get; set; }
     }
 }
